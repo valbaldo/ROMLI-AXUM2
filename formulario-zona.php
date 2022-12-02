@@ -9,6 +9,7 @@ if(!isset($_SESSION))
     <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="index/css/style.css">
         <link rel="stylesheet" href="./css/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -32,7 +33,7 @@ if(!isset($_SESSION))
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.js"></script>
-    <body style="background-color: #2b1d42;;">
+    <body style="background-color: #110b1a;">
     <div style="padding: 0px; float: left; width: 100%;">
         <br>
     </div>
@@ -104,28 +105,20 @@ if(!isset($_SESSION))
         }
         ?>
     <h1 class="titulo"> <center> ~ Carga de Zonas ~ </center></h1>
-    <header class="sticky-top">
-			<nav class="navbar navbar-expand-lg navbar-light bg-nav" id="mainNav">
-				<div class="container-fluid">
-				    <a href="index.html">
-						<img src="img/logo.svg" alt="logo de pagina" class="logo img-fluid">
-					</a>
-				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				      <span class="navbar-toggler-icon"></span>
-				    </button>
-				    <div class="collapse navbar-collapse" id="navbarNav">
-				      <ul class="navbar-nav ms-auto">
-				        <li class="nav-item">
-				          <a href="views/nosotros.html">Nosotros</a>
-				        </li>
-				        <li class="nav-item">
-				          <a href="views/contacto.html">Contacto</a>
-				        </li>
-				      </ul>
-				    </div>
-				</div>
-			</nav>
-		</header>
+    <nav>
+			<a href="index/index.html" class="logoo"><h2 class="logo">ROM<span>LI</span></h2></a>
+			<ul>
+				<li class="li">
+					<a href="formulario.php">Vendedores</a>
+				</li>
+				<li class="li">
+					<a href="formulario-telefono-usuarios.php">Telefonos</a>
+				</li>
+				<li class="li">
+					<a href="formulario-articulos.php">Articulos</a>
+				</li>
+			</ul>
+		</nav>
     
     <div style="padding: 0px; float: left; width: 100%;">
         <br>
